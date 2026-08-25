@@ -1,0 +1,6 @@
+fold,train_samples,train_positive,train_negative,val_samples,val_positive,val_negative
+fold_1,1662,831,831,416,208,208
+fold_2,1662,831,831,416,208,208
+fold_3,1662,831,831,416,208,208
+fold_4,1663,831,832,415,208,207
+fold_5,1663,832,831,415,207,208

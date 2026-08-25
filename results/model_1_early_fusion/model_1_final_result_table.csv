@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1-score
+BERT + ResNet50 Early Fusion,0.7038,0.6893,0.7423,0.7148

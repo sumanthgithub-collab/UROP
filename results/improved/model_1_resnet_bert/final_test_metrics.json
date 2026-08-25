@@ -1,0 +1,14 @@
+{
+    "model": "Model 1 (BERT + ResNet50 Early Fusion)",
+    "development_samples": 2078,
+    "final_test_samples": 520,
+    "best_epoch": 2,
+    "training_accuracy": 0.98676293622142,
+    "validation_accuracy": 0.8052884615384616,
+    "accuracy": 0.7173076923076923,
+    "precision": 0.703971119133574,
+    "recall": 0.75,
+    "f1": 0.7262569832402235,
+    "train_val_gap": 0.1814744746829584,
+    "train_test_gap": 0.26945524391372766
+}

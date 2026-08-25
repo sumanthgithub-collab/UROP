@@ -1,0 +1,9 @@
+{
+    "model": "ViLT Multimodal Sentiment Classifier",
+    "development_samples": 2078,
+    "final_test_samples": 520,
+    "accuracy": 0.6673076923076923,
+    "precision": 0.6629213483146067,
+    "recall": 0.6807692307692308,
+    "f1": 0.6717267552182163
+}

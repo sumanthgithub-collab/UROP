@@ -1,0 +1,14 @@
+{
+    "model": "Model 3 (ViLT Cross-Modal Classifier)",
+    "development_samples": 2078,
+    "final_test_samples": 520,
+    "best_epoch": 2,
+    "training_accuracy": 0.9921780986762936,
+    "validation_accuracy": 0.7836538461538461,
+    "accuracy": 0.7288461538461538,
+    "precision": 0.7195571955719557,
+    "recall": 0.75,
+    "f1": 0.7344632768361582,
+    "train_val_gap": 0.20852425252244744,
+    "train_test_gap": 0.2633319448301398
+}

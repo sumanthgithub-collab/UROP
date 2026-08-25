@@ -1,0 +1,5 @@
+Metric,Rank 1,Rank 2,Rank 3,Rank 4
+CV Accuracy,CLIP (78.58%),BERT + ResNet50 V2 (78.34%),BERT + ResNet50 (77.81%),ViLT (76.42%)
+CV F1 Score,CLIP (79.96%),BERT + ResNet50 (79.48%),BERT + ResNet50 V2 (78.89%),ViLT (78.24%)
+Final Test Accuracy,BERT + ResNet50 (70.38%),CLIP (68.65%),ViLT (66.73%),N/A (V2 Not Evaluated)
+Final Test F1 Score,BERT + ResNet50 (71.48%),CLIP (69.53%),ViLT (67.17%),N/A (V2 Not Evaluated)

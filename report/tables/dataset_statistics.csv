@@ -1,0 +1,4 @@
+Subset,Positive,Negative,Total,Ratio
+Total Balanced Dataset,1299,1299,2598,1:1 (50% / 50%)
+Development Set (5-Fold CV),1039,1039,2078,1:1 (80% Total)
+Final Held-Out Test Set,260,260,520,1:1 (20% Total)

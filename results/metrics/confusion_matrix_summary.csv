@@ -1,0 +1,4 @@
+Model,True Negative,False Positive,False Negative,True Positive,Total
+BERT + ResNet50,173,87,67,193,520
+CLIP,171,89,74,186,520
+ViLT,170,90,83,177,520

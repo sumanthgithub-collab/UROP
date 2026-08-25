@@ -1,0 +1,9 @@
+{
+    "model": "CLIP Multimodal Sentiment Classifier",
+    "development_samples": 2078,
+    "final_test_samples": 520,
+    "accuracy": 0.6865384615384615,
+    "precision": 0.6763636363636364,
+    "recall": 0.7153846153846154,
+    "f1": 0.6953271028037383
+}

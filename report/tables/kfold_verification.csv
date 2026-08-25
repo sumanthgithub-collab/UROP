@@ -1,0 +1,7 @@
+Verification Item,Verified Value,Status
+Development Set Unique Samples,2078,PASS
+Final Test Set Samples,520,PASS
+Development / Test Leakage,0,PASS
+Train / Validation Overlap per Fold,0,PASS
+Fold Validation Frequency per Sample,1 time,PASS
+Fold Training Frequency per Sample,4 times,PASS

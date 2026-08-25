@@ -1,0 +1,14 @@
+{
+    "model": "Model 2 (CLIP Multimodal Classifier)",
+    "development_samples": 2078,
+    "final_test_samples": 520,
+    "best_epoch": 2,
+    "training_accuracy": 0.98014440433213,
+    "validation_accuracy": 0.7668269230769231,
+    "accuracy": 0.7096153846153846,
+    "precision": 0.7443946188340808,
+    "recall": 0.6384615384615384,
+    "f1": 0.6873706004140787,
+    "train_val_gap": 0.2133174812552069,
+    "train_test_gap": 0.27052901971674537
+}

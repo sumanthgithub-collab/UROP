@@ -1,0 +1,5 @@
+Model,CV Accuracy,CV F1,Final Test Accuracy,Final Test F1
+BERT + ResNet50,77.81%,79.48%,70.38%,71.48%
+BERT + ResNet50 V2,78.34%,78.89%,N/A,N/A
+CLIP,78.58%,79.96%,68.65%,69.53%
+ViLT,76.42%,78.24%,66.73%,67.17%

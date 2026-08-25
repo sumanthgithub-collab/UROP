@@ -1,0 +1,4 @@
+Result,Accuracy,Precision,Recall,F1-score
+5-Fold CV Mean,0.7781,0.7438,0.8576,0.7948
+5-Fold CV Std,0.0236,0.0446,0.0417,0.0115
+Final Test,0.7038,0.6893,0.7423,0.7148

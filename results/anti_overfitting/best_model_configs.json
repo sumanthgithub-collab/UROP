@@ -1,0 +1,62 @@
+{
+    "ResNet50+BERT": {
+        "hparams": {
+            "lr": 0.0003,
+            "dropout": 0.4,
+            "weight_decay": 0.02,
+            "noise_std": 0.0,
+            "label_smooth": 0.0
+        },
+        "metrics": {
+            "best_epoch": 3,
+            "train_loss": 0.40171746237183303,
+            "train_acc": 0.822503008423586,
+            "val_loss": 0.446086035324977,
+            "val_acc": 0.7980769230769231,
+            "val_f1": 0.7980769230769231,
+            "train_val_gap": 0.024426085346662907,
+            "experiment": "Exp 0: Baseline High LR"
+        },
+        "exp_name": "Exp 0: Baseline High LR"
+    },
+    "CLIP": {
+        "hparams": {
+            "lr": 0.0003,
+            "dropout": 0.4,
+            "weight_decay": 0.02,
+            "noise_std": 0.0,
+            "label_smooth": 0.0
+        },
+        "metrics": {
+            "best_epoch": 4,
+            "train_loss": 0.34968149134828724,
+            "train_acc": 0.8549939831528279,
+            "val_loss": 0.43492208421230316,
+            "val_acc": 0.8197115384615384,
+            "val_f1": 0.8259860788863109,
+            "train_val_gap": 0.035282444691289494,
+            "experiment": "Exp 0: Baseline High LR"
+        },
+        "exp_name": "Exp 0: Baseline High LR"
+    },
+    "ViLT": {
+        "hparams": {
+            "lr": 0.0003,
+            "dropout": 0.4,
+            "weight_decay": 0.02,
+            "noise_std": 0.0,
+            "label_smooth": 0.0
+        },
+        "metrics": {
+            "best_epoch": 3,
+            "train_loss": 0.38319007261565446,
+            "train_acc": 0.8291215403128761,
+            "val_loss": 0.4428926477065453,
+            "val_acc": 0.8076923076923077,
+            "val_f1": 0.8237885462555066,
+            "train_val_gap": 0.021429232620568395,
+            "experiment": "Exp 0: Baseline High LR"
+        },
+        "exp_name": "Exp 0: Baseline High LR"
+    }
+}

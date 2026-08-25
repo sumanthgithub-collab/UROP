@@ -1,0 +1,10 @@
+{
+    "model": "BERT + ResNet50 Early Fusion",
+    "development_samples": 2078,
+    "final_test_samples": 520,
+    "accuracy": 0.7038461538461539,
+    "precision": 0.6892857142857143,
+    "recall": 0.7423076923076923,
+    "f1": 0.7148148148148148,
+    "best_development_epoch": 10
+}
