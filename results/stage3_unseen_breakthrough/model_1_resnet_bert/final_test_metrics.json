@@ -1,0 +1,12 @@
+{
+    "model_name": "ResNet50 + BERT (Mixup)",
+    "training_accuracy": 0.9217809867629362,
+    "validation_accuracy": 0.8004807692307693,
+    "test_accuracy": 0.7461538461538462,
+    "train_val_gap": 0.12130021753216691,
+    "train_test_gap": 0.17562714060909002,
+    "validation_f1": 0.801909307875895,
+    "test_f1": 0.75,
+    "test_precision": 0.7388059701492538,
+    "test_recall": 0.7615384615384615
+}

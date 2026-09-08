@@ -1,0 +1,71 @@
+{
+    "ResNet50+BERT": {
+        "hparams": {
+            "lr": 0.00012,
+            "dropout": 0.45,
+            "weight_decay": 0.05,
+            "proj_dim": 128,
+            "hidden_dim": 96,
+            "fusion_mode": "full_interaction",
+            "noise_std": 0.0,
+            "label_smooth": 0.03
+        },
+        "metrics": {
+            "best_epoch": 6,
+            "train_loss": 0.4074862789806476,
+            "train_acc": 0.8435619735258725,
+            "val_loss": 0.45598469559962934,
+            "val_acc": 0.8004807692307693,
+            "val_f1": 0.8065268065268065,
+            "train_val_gap": 0.043081204295103204,
+            "experiment": "Exp 1: Full Interaction Fusion"
+        },
+        "exp_name": "Exp 1: Full Interaction Fusion"
+    },
+    "CLIP": {
+        "hparams": {
+            "lr": 0.00015,
+            "dropout": 0.45,
+            "weight_decay": 0.05,
+            "proj_dim": 256,
+            "hidden_dim": 128,
+            "use_diff": false,
+            "noise_std": 0.0,
+            "label_smooth": 0.0
+        },
+        "metrics": {
+            "best_epoch": 3,
+            "train_loss": 0.432080934050568,
+            "train_acc": 0.8086642599277978,
+            "val_loss": 0.4349598827270361,
+            "val_acc": 0.7884615384615384,
+            "val_f1": 0.7924528301886793,
+            "train_val_gap": 0.020202721466259344,
+            "experiment": "Exp 0: Stage 1 Winner Baseline"
+        },
+        "exp_name": "Exp 0: Stage 1 Winner Baseline"
+    },
+    "ViLT": {
+        "hparams": {
+            "lr": 0.00012,
+            "dropout": 0.45,
+            "weight_decay": 0.03,
+            "proj_dim": 128,
+            "hidden_dim": 96,
+            "num_heads": 4,
+            "noise_std": 0.0,
+            "label_smooth": 0.03
+        },
+        "metrics": {
+            "best_epoch": 6,
+            "train_loss": 0.4077053609809577,
+            "train_acc": 0.8429602888086642,
+            "val_loss": 0.45778040473277753,
+            "val_acc": 0.8245192307692307,
+            "val_f1": 0.8337129840546698,
+            "train_val_gap": 0.018441058039433522,
+            "experiment": "Exp 1: Bi-Cross Attention (128-dim)"
+        },
+        "exp_name": "Exp 1: Bi-Cross Attention (128-dim)"
+    }
+}

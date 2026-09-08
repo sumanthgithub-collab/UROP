@@ -1,0 +1,4 @@
+Model,Old Test Acc,New Test Acc,Acc Gain,Old Test F1,New Test F1,F1 Gain,Old Gap,New Gap,Gap Reduction
+ResNet50 + BERT,71.73%,75.38%,+3.65 pp,72.63%,77.06%,+4.44 pp,26.95 pp,11.92 pp,15.03 pp
+CLIP,70.96%,73.65%,+2.69 pp,68.74%,74.95%,+6.22 pp,27.05 pp,17.62 pp,9.43 pp
+ViLT,72.88%,74.42%,+1.54 pp,73.45%,75.95%,+2.50 pp,26.33 pp,11.14 pp,15.20 pp

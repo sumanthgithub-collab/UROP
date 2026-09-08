@@ -1,0 +1,11 @@
+{
+    "model_name": "CLIP",
+    "train_accuracy": 0.8381,
+    "validation_accuracy": 0.8149,
+    "test_accuracy": 0.7615,
+    "test_f1": 0.7652,
+    "test_precision": 0.7402,
+    "test_recall": 0.8,
+    "train_val_gap": 0.0232,
+    "train_test_gap": 0.0766
+}

@@ -1,0 +1,20 @@
+{
+    "model_name": "CLIP",
+    "training_accuracy": 0.9127557160048135,
+    "validation_accuracy": 0.7908653846153846,
+    "test_accuracy": 0.7365384615384616,
+    "train_val_gap": 0.12189033138942895,
+    "train_test_gap": 0.17621725446635195,
+    "validation_f1": 0.8,
+    "test_f1": 0.7495429616087751,
+    "test_precision": 0.7142857142857143,
+    "test_recall": 0.7884615384615384,
+    "old_training_accuracy": 0.98014440433213,
+    "old_validation_accuracy": 0.7668269230769231,
+    "old_test_accuracy": 0.7096153846153846,
+    "old_test_f1": 0.6873706004140787,
+    "accuracy_gain": 0.02692307692307694,
+    "f1_gain": 0.06217236119469638,
+    "old_train_test_gap": 0.27052901971674537,
+    "gap_reduction": 0.09431176525039342
+}

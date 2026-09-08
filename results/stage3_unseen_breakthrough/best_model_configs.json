@@ -1,0 +1,94 @@
+{
+    "ResNet50+BERT": {
+        "hparams": {
+            "lr": 9e-05,
+            "dropout": 0.45,
+            "weight_decay": 0.06,
+            "proj_dim": 128,
+            "hidden_dim": 96,
+            "fusion_mode": "full_interaction",
+            "mixup_alpha": 0.25,
+            "label_smooth": 0.04
+        },
+        "metrics": {
+            "best_epoch": 8,
+            "train_loss": 0.46930284649313,
+            "train_acc": 0.674488567990373,
+            "val_loss": 0.4751860453532292,
+            "val_acc": 0.8004807692307693,
+            "val_f1": 0.801909307875895,
+            "train_val_gap": -0.12599220124039623,
+            "experiment": "Stage 3 Exp 2: Mixup (0.25) + WD 0.06"
+        },
+        "exp_name": "Stage 3 Exp 2: Mixup (0.25) + WD 0.06"
+    },
+    "CLIP": {
+        "hparams": {
+            "lr": 9e-05,
+            "dropout": 0.45,
+            "weight_decay": 0.06,
+            "proj_dim": 128,
+            "hidden_dim": 96,
+            "use_diff": true,
+            "mixup_alpha": 0.15,
+            "label_smooth": 0.03
+        },
+        "metrics": {
+            "best_epoch": 6,
+            "train_loss": 0.48246981911854336,
+            "train_acc": 0.6630565583634176,
+            "val_loss": 0.4701896837124458,
+            "val_acc": 0.7908653846153846,
+            "val_f1": 0.7981438515081206,
+            "train_val_gap": -0.127808826251967,
+            "experiment": "Stage 3 Exp 2: Mixup (0.15) + WD 0.06"
+        },
+        "exp_name": "Stage 3 Exp 2: Mixup (0.15) + WD 0.06"
+    },
+    "ViLT": {
+        "hparams": {
+            "lr": 0.0001,
+            "dropout": 0.45,
+            "weight_decay": 0.04,
+            "proj_dim": 128,
+            "hidden_dim": 96,
+            "num_heads": 4,
+            "mixup_alpha": 0.2,
+            "label_smooth": 0.03
+        },
+        "metrics": {
+            "best_epoch": 7,
+            "train_loss": 0.45421721042995705,
+            "train_acc": 0.6961492178098676,
+            "val_loss": 0.45916266624744123,
+            "val_acc": 0.8004807692307693,
+            "val_f1": 0.8109339407744874,
+            "train_val_gap": -0.10433155142090167,
+            "experiment": "Stage 3 Exp 1: Manifold Mixup (alpha=0.2)"
+        },
+        "exp_name": "Stage 3 Exp 1: Manifold Mixup (alpha=0.2)"
+    },
+    "TransformerFusion": {
+        "hparams": {
+            "lr": 0.0001,
+            "dropout": 0.45,
+            "weight_decay": 0.04,
+            "proj_dim": 128,
+            "hidden_dim": 96,
+            "num_heads": 4,
+            "mixup_alpha": 0.2,
+            "label_smooth": 0.03
+        },
+        "metrics": {
+            "best_epoch": 6,
+            "train_loss": 0.48188250496642826,
+            "train_acc": 0.6889290012033694,
+            "val_loss": 0.4636852443218231,
+            "val_acc": 0.7836538461538461,
+            "val_f1": 0.7897196261682243,
+            "train_val_gap": -0.09472484495047673,
+            "experiment": "Stage 3 Exp 1: Cross-Modal Transformer + Mixup"
+        },
+        "exp_name": "Stage 3 Exp 1: Cross-Modal Transformer + Mixup"
+    }
+}

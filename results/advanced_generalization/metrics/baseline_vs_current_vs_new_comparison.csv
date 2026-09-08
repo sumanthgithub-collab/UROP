@@ -1,0 +1,4 @@
+Model,Baseline Test Acc,Stage 1 Test Acc,Stage 2 Test Acc,Stage 2 Acc Gain,Baseline Gap,Stage 1 Gap,Stage 2 Gap,Total Gap Reduction
+ResNet50 + BERT,71.73%,75.38%,74.42%,-0.96 pp,26.95 pp,11.92 pp,17.33 pp,9.61 pp
+CLIP,70.96%,73.65%,74.42%,+0.77 pp,27.05 pp,17.62 pp,13.66 pp,13.39 pp
+ViLT,72.88%,74.42%,72.12%,-2.31 pp,26.33 pp,11.14 pp,18.20 pp,8.14 pp

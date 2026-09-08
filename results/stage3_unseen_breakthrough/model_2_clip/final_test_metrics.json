@@ -1,0 +1,12 @@
+{
+    "model_name": "CLIP (Mixup)",
+    "training_accuracy": 0.8790613718411552,
+    "validation_accuracy": 0.7908653846153846,
+    "test_accuracy": 0.7596153846153846,
+    "train_val_gap": 0.0881959872257706,
+    "train_test_gap": 0.1194459872257706,
+    "validation_f1": 0.7981438515081206,
+    "test_f1": 0.7689463955637708,
+    "test_precision": 0.7402135231316725,
+    "test_recall": 0.8
+}

@@ -38,8 +38,10 @@ class ViLTImprovedCrossModalClassifier(nn.Module):
     Improved Bi-directional Cross-Attention Classifier for ViLT / Vision-Language Transformers.
     Incorporates multi-head cross-attention (text-query-image and image-query-text), residual skip connections, LayerNorm, and regularized dropout.
     """
-    def __init__(self, text_dim=768, image_dim=2048, joint_dim=256, num_heads=4, dropout=0.4):
+    def __init__(self, text_dim=768, image_dim=2048, joint_dim=256, proj_dim=None, num_heads=4, dropout=0.4):
         super().__init__()
+        if proj_dim is not None:
+            joint_dim = proj_dim
         self.text_proj = nn.Sequential(
             nn.Linear(text_dim, joint_dim),
             nn.LayerNorm(joint_dim),

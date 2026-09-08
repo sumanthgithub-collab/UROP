@@ -1,0 +1,12 @@
+{
+    "model_name": "Cross-Modal Transformer",
+    "training_accuracy": 0.885078219013237,
+    "validation_accuracy": 0.7836538461538461,
+    "test_accuracy": 0.7634615384615384,
+    "train_val_gap": 0.10142437285939088,
+    "train_test_gap": 0.12161668055169861,
+    "validation_f1": 0.7897196261682243,
+    "test_f1": 0.7657142857142857,
+    "test_precision": 0.7584905660377359,
+    "test_recall": 0.7730769230769231
+}

@@ -1,0 +1,11 @@
+{
+    "model_name": "ViLT",
+    "train_accuracy": 0.8285,
+    "validation_accuracy": 0.8053,
+    "test_accuracy": 0.7635,
+    "test_f1": 0.7657,
+    "test_precision": 0.7585,
+    "test_recall": 0.7731,
+    "train_val_gap": 0.0232,
+    "train_test_gap": 0.065
+}

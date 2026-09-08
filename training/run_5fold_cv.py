@@ -14,7 +14,7 @@ sys.path.append(str(BASE_DIR))
 
 from training.train_anti_overfitting import (
     load_feature_map, clean_sid, FeatureDataset,
-    SimplifiedResNetBERTClassifier, SimplifiedCLIPClassifier, SimplifiedViLTClassifier,
+    ResNet50BERTClassifier, CLIPMultimodalClassifier, ViLTCrossModalClassifier,
     train_one_epoch, evaluate
 )
 
@@ -38,11 +38,13 @@ def run_5fold_cv_for_model(model_name, model_class, folder_name, hparams, text_f
     
     lr = hparams.get("lr", 1e-4)
     weight_decay = hparams.get("weight_decay", 0.05)
-    dropout = hparams.get("dropout", 0.5)
-    noise_std = hparams.get("noise_std", 0.01)
-    label_smooth = hparams.get("label_smooth", 0.05)
+    dropout = hparams.get("dropout", 0.4)
+    proj_dim = hparams.get("proj_dim", 128)
+    hidden_dim = hparams.get("hidden_dim", 128)
+    noise_std = hparams.get("noise_std", 0.0)
+    label_smooth = hparams.get("label_smooth", 0.0)
     batch_size = hparams.get("batch_size", 32)
-    max_epochs = hparams.get("epochs", 40)
+    max_epochs = hparams.get("epochs", 35)
     patience = hparams.get("patience", 4)
     
     cv_metrics = []
@@ -63,7 +65,7 @@ def run_5fold_cv_for_model(model_name, model_class, folder_name, hparams, text_f
         train_loader = DataLoader(FeatureDataset(tr_t, tr_i, tr_y, noise_std=noise_std), batch_size=batch_size, shuffle=True)
         val_loader = DataLoader(FeatureDataset(val_t, val_i, val_y, noise_std=0.0), batch_size=batch_size, shuffle=False)
         
-        model = model_class(dropout=dropout).to(device)
+        model = model_class(proj_dim=proj_dim, hidden_dim=hidden_dim, dropout=dropout).to(device)
         optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=weight_decay)
         scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode="min", factor=0.5, patience=2)
         criterion = nn.CrossEntropyLoss(label_smoothing=label_smooth)
@@ -96,7 +98,7 @@ def run_5fold_cv_for_model(model_name, model_class, folder_name, hparams, text_f
                     break
                     
         cv_metrics.append(best_metrics)
-        print(f"Fold {fold} (Epoch {best_metrics['best_epoch']:2d}) - Train Acc: {best_metrics['train_accuracy']*100:.2f}%, Val Acc: {best_metrics['accuracy']*100:.2f}%, Val F1: {best_metrics['f1']*100:.2f}%, Gap: {best_metrics['train_val_gap']*100:.2f}%", flush=True)
+        print(f"Fold {fold} (Epoch {best_metrics['best_epoch']:2d}) - Train Acc: {best_metrics['train_accuracy']*100:.2f}%, Val Acc: {best_metrics['accuracy']*100:.2f}%, Val F1: {best_metrics['f1']*100:.2f}%, Gap: {best_metrics['train_val_gap']*100:.2f} pp", flush=True)
 
     cv_df = pd.DataFrame(cv_metrics)
     cv_df.to_csv(out_dir / "cv_results.csv", index=False)
@@ -127,9 +129,9 @@ def main():
         best_configs = json.load(f)
         
     models_map = [
-        ("ResNet50+BERT", SimplifiedResNetBERTClassifier, "model_1_resnet_bert"),
-        ("CLIP", SimplifiedCLIPClassifier, "model_2_clip"),
-        ("ViLT", SimplifiedViLTClassifier, "model_3_vilt")
+        ("ResNet50+BERT", ResNet50BERTClassifier, "model_1_resnet_bert"),
+        ("CLIP", CLIPMultimodalClassifier, "model_2_clip"),
+        ("ViLT", ViLTCrossModalClassifier, "model_3_vilt")
     ]
     
     for m_name, m_class, folder in models_map:

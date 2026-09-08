@@ -1,0 +1,7 @@
+{
+    "model_name": "Multi-Model Ensemble",
+    "test_accuracy": 0.7384615384615385,
+    "test_f1": 0.7453183520599251,
+    "test_precision": 0.7262773722627737,
+    "test_recall": 0.7653846153846153
+}

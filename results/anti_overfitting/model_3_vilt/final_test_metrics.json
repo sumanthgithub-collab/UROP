@@ -1,0 +1,20 @@
+{
+    "model_name": "ViLT",
+    "training_accuracy": 0.855595667870036,
+    "validation_accuracy": 0.7956730769230769,
+    "test_accuracy": 0.7442307692307693,
+    "train_val_gap": 0.059922590946959176,
+    "train_test_gap": 0.1113648986392668,
+    "validation_f1": 0.806378132118451,
+    "test_f1": 0.759493670886076,
+    "test_precision": 0.7167235494880546,
+    "test_recall": 0.8076923076923077,
+    "old_training_accuracy": 0.9921780986762936,
+    "old_validation_accuracy": 0.7836538461538461,
+    "old_test_accuracy": 0.7288461538461538,
+    "old_test_f1": 0.7344632768361582,
+    "accuracy_gain": 0.015384615384615441,
+    "f1_gain": 0.025030394049917803,
+    "old_train_test_gap": 0.2633319448301398,
+    "gap_reduction": 0.15196704619087298
+}

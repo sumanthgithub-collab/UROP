@@ -1,0 +1,11 @@
+{
+    "model_name": "ResNet50 + BERT",
+    "train_accuracy": 0.8303,
+    "validation_accuracy": 0.8173,
+    "test_accuracy": 0.7538,
+    "test_f1": 0.7706,
+    "test_precision": 0.7215,
+    "test_recall": 0.8269,
+    "train_val_gap": 0.013,
+    "train_test_gap": 0.0765
+}

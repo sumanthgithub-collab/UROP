@@ -1,62 +1,68 @@
 {
     "ResNet50+BERT": {
         "hparams": {
-            "lr": 0.0003,
-            "dropout": 0.4,
-            "weight_decay": 0.02,
+            "lr": 0.00015,
+            "dropout": 0.45,
+            "weight_decay": 0.05,
+            "proj_dim": 256,
+            "hidden_dim": 128,
             "noise_std": 0.0,
             "label_smooth": 0.0
         },
         "metrics": {
             "best_epoch": 3,
-            "train_loss": 0.40171746237183303,
-            "train_acc": 0.822503008423586,
-            "val_loss": 0.446086035324977,
-            "val_acc": 0.7980769230769231,
-            "val_f1": 0.7980769230769231,
-            "train_val_gap": 0.024426085346662907,
-            "experiment": "Exp 0: Baseline High LR"
+            "train_loss": 0.42108608242550194,
+            "train_acc": 0.8122743682310469,
+            "val_loss": 0.4435065686702728,
+            "val_acc": 0.8173076923076923,
+            "val_f1": 0.8264840182648402,
+            "train_val_gap": -0.005033324076645362,
+            "experiment": "Exp 2: Dropout + High Weight Decay (0.05)"
         },
-        "exp_name": "Exp 0: Baseline High LR"
+        "exp_name": "Exp 2: Dropout + High Weight Decay (0.05)"
     },
     "CLIP": {
         "hparams": {
-            "lr": 0.0003,
-            "dropout": 0.4,
-            "weight_decay": 0.02,
+            "lr": 0.00015,
+            "dropout": 0.45,
+            "weight_decay": 0.05,
+            "proj_dim": 256,
+            "hidden_dim": 128,
             "noise_std": 0.0,
             "label_smooth": 0.0
         },
         "metrics": {
             "best_epoch": 4,
-            "train_loss": 0.34968149134828724,
-            "train_acc": 0.8549939831528279,
-            "val_loss": 0.43492208421230316,
-            "val_acc": 0.8197115384615384,
-            "val_f1": 0.8259860788863109,
-            "train_val_gap": 0.035282444691289494,
-            "experiment": "Exp 0: Baseline High LR"
+            "train_loss": 0.3762242121601793,
+            "train_acc": 0.8405535499398316,
+            "val_loss": 0.4397035584999965,
+            "val_acc": 0.7908653846153846,
+            "val_f1": 0.8,
+            "train_val_gap": 0.049688165324446976,
+            "experiment": "Exp 2: Dropout + High Weight Decay (0.05)"
         },
-        "exp_name": "Exp 0: Baseline High LR"
+        "exp_name": "Exp 2: Dropout + High Weight Decay (0.05)"
     },
     "ViLT": {
         "hparams": {
-            "lr": 0.0003,
-            "dropout": 0.4,
-            "weight_decay": 0.02,
+            "lr": 0.0002,
+            "dropout": 0.45,
+            "weight_decay": 0.01,
+            "proj_dim": 256,
+            "hidden_dim": 256,
             "noise_std": 0.0,
             "label_smooth": 0.0
         },
         "metrics": {
-            "best_epoch": 3,
-            "train_loss": 0.38319007261565446,
-            "train_acc": 0.8291215403128761,
-            "val_loss": 0.4428926477065453,
-            "val_acc": 0.8076923076923077,
-            "val_f1": 0.8237885462555066,
-            "train_val_gap": 0.021429232620568395,
-            "experiment": "Exp 0: Baseline High LR"
+            "best_epoch": 2,
+            "train_loss": 0.5126265380643622,
+            "train_acc": 0.7551143200962696,
+            "val_loss": 0.4493719453995044,
+            "val_acc": 0.7956730769230769,
+            "val_f1": 0.806378132118451,
+            "train_val_gap": -0.04055875682680732,
+            "experiment": "Exp 1: Stronger Dropout (0.45)"
         },
-        "exp_name": "Exp 0: Baseline High LR"
+        "exp_name": "Exp 1: Stronger Dropout (0.45)"
     }
 }

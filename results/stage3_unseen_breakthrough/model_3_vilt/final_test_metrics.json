@@ -1,0 +1,12 @@
+{
+    "model_name": "ViLT (Mixup)",
+    "training_accuracy": 0.9007220216606499,
+    "validation_accuracy": 0.8004807692307693,
+    "test_accuracy": 0.7346153846153847,
+    "train_val_gap": 0.10024125242988058,
+    "train_test_gap": 0.16610663704526518,
+    "validation_f1": 0.8109339407744874,
+    "test_f1": 0.7490909090909091,
+    "test_precision": 0.7103448275862069,
+    "test_recall": 0.7923076923076923
+}

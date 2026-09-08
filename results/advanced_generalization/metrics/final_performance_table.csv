@@ -1,0 +1,5 @@
+Model,Train Acc,Validation Acc,Test Acc,Train-Test Gap,Test F1
+ResNet50 + BERT,91.76%,80.05%,74.42%,17.33 pp,75.32%
+CLIP,88.09%,78.85%,74.42%,13.66 pp,74.86%
+ViLT,90.31%,82.45%,72.12%,18.20 pp,73.30%
+Multi-Model Ensemble,N/A,N/A,73.85%,N/A,74.53%

@@ -1,0 +1,20 @@
+{
+    "model_name": "ResNet50 + BERT",
+    "training_accuracy": 0.8730445246690735,
+    "validation_accuracy": 0.8173076923076923,
+    "test_accuracy": 0.7538461538461538,
+    "train_val_gap": 0.05573683236138116,
+    "train_test_gap": 0.11919837082291962,
+    "validation_f1": 0.8264840182648402,
+    "test_f1": 0.7706093189964157,
+    "test_precision": 0.7214765100671141,
+    "test_recall": 0.8269230769230769,
+    "old_training_accuracy": 0.98676293622142,
+    "old_validation_accuracy": 0.8052884615384616,
+    "old_test_accuracy": 0.7173076923076923,
+    "old_test_f1": 0.7262569832402235,
+    "accuracy_gain": 0.03653846153846152,
+    "f1_gain": 0.04435233575619224,
+    "old_train_test_gap": 0.26945524391372766,
+    "gap_reduction": 0.15025687309080804
+}

@@ -1,0 +1,9 @@
+{
+    "exp_id": "Exp_5_Optimal_Combination",
+    "dropout": 0.4,
+    "weight_decay": 0.03,
+    "lr": 0.0002,
+    "label_smooth": 0.02,
+    "noise_std": 0.01,
+    "proj_dim": 128
+}
