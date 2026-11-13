@@ -1,0 +1,20 @@
+{
+    "model_name": "Gap-Minimized 5-Fold Balanced Cross-Modal Transformer",
+    "unbiased_val_accuracy": 0.7651588065447545,
+    "test_accuracy": 0.725,
+    "test_f1": 0.7296786389413988,
+    "test_precision": 0.7174721189591078,
+    "test_recall": 0.7423076923076923,
+    "val_test_gap": 4.015880654475456,
+    "optimal_threshold": 0.545,
+    "confusion_matrix": [
+        [
+            184,
+            76
+        ],
+        [
+            67,
+            193
+        ]
+    ]
+}

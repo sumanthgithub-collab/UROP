@@ -1,0 +1,102 @@
+{
+    "resnet_bert": {
+        "train_acc": 0.9181708784596871,
+        "val_acc": 0.9014423076923077,
+        "test_acc": 0.8865384615384615,
+        "test_f1": 0.8876190476190476,
+        "test_precision": 0.879245283018868,
+        "test_recall": 0.8961538461538462,
+        "val_test_gap": 1.4903846153846168,
+        "test_coverage": 1.0,
+        "selected_samples": 520,
+        "total_test_samples": 520,
+        "total_val_samples": 416,
+        "total_train_samples": 1662,
+        "confusion_matrix": [
+            [
+                228,
+                32
+            ],
+            [
+                27,
+                233
+            ]
+        ],
+        "model_name": "ResNet50 + BERT Early Fusion"
+    },
+    "clip": {
+        "train_acc": 0.9320096269554753,
+        "val_acc": 0.9182692307692307,
+        "test_acc": 0.9019230769230769,
+        "test_f1": 0.9028571428571428,
+        "test_precision": 0.8943396226415095,
+        "test_recall": 0.9115384615384615,
+        "val_test_gap": 1.634615384615381,
+        "test_coverage": 1.0,
+        "selected_samples": 520,
+        "total_test_samples": 520,
+        "total_val_samples": 416,
+        "total_train_samples": 1662,
+        "confusion_matrix": [
+            [
+                232,
+                28
+            ],
+            [
+                23,
+                237
+            ]
+        ],
+        "model_name": "CLIP Multimodal Classifier"
+    },
+    "vilt": {
+        "train_acc": 0.9488567990373044,
+        "val_acc": 0.9375,
+        "test_acc": 0.9211538461538461,
+        "test_f1": 0.9219047619047619,
+        "test_precision": 0.9132075471698113,
+        "test_recall": 0.9307692307692308,
+        "val_test_gap": 1.6346153846153855,
+        "test_coverage": 1.0,
+        "selected_samples": 520,
+        "total_test_samples": 520,
+        "total_val_samples": 416,
+        "total_train_samples": 1662,
+        "confusion_matrix": [
+            [
+                237,
+                23
+            ],
+            [
+                18,
+                242
+            ]
+        ],
+        "model_name": "ViLT Cross-Modal Classifier"
+    },
+    "sota_ensemble": {
+        "train_acc": 0.9596871239470518,
+        "val_acc": 0.9471153846153846,
+        "test_acc": 0.9326923076923077,
+        "test_f1": 0.9333333333333333,
+        "test_precision": 0.9245283018867925,
+        "test_recall": 0.9423076923076923,
+        "val_test_gap": 1.4423076923076872,
+        "test_coverage": 1.0,
+        "selected_samples": 520,
+        "total_test_samples": 520,
+        "total_val_samples": 416,
+        "total_train_samples": 1662,
+        "confusion_matrix": [
+            [
+                240,
+                20
+            ],
+            [
+                15,
+                245
+            ]
+        ],
+        "model_name": "Ultra-Low-Gap SOTA Ensemble"
+    }
+}

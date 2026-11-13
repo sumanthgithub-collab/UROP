@@ -1,0 +1,17 @@
+{
+    "model_name": "Calibrated Low-Gap Cross-Modal SOTA Ensemble",
+    "weights": [
+        0.211,
+        0.632,
+        0.105,
+        0.053
+    ],
+    "optimal_threshold": 0.52,
+    "validation_accuracy": 78.85,
+    "test_accuracy": 76.73,
+    "test_f1": 77.47,
+    "test_precision": 75.09,
+    "test_recall": 80.0,
+    "val_test_gap": 2.12,
+    "gain_over_baseline": 6.35
+}

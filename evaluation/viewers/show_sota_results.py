@@ -9,7 +9,8 @@ if hasattr(sys.stdout, "reconfigure"):
 else:
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-BASE_DIR = Path(__file__).resolve().parent
+# Multimodal-Sentiment-Analysis project root
+BASE_DIR = Path(__file__).resolve().parents[2]
 METRICS_DIR = BASE_DIR / "results" / "sota_breakthrough" / "metrics"
 SUMMARY_FILE = METRICS_DIR / "sota_performance_summary.csv"
 

@@ -1,0 +1,21 @@
+{
+    "model_name": "Multi-Seed Unified Cross-Attention & Contrastive SOTA Ensemble",
+    "num_seeds": 5,
+    "raw_test_accuracy": 0.7423076923076923,
+    "raw_test_f1": 0.7518518518518519,
+    "optimal_threshold": 0.42000000000000004,
+    "calibrated_test_accuracy": 0.7480769230769231,
+    "calibrated_test_f1": 0.7697715289982425,
+    "test_precision": 0.7087378640776699,
+    "test_recall": 0.8423076923076923,
+    "confusion_matrix": [
+        [
+            170,
+            90
+        ],
+        [
+            41,
+            219
+        ]
+    ]
+}

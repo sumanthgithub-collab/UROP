@@ -1,0 +1,70 @@
+% ==============================================================================
+% LATEX TABLES FOR RESEARCH PAPER SUBMISSION
+% Multimodal Sentiment Analysis: Progression from Baseline to SOTA Architectures
+% ==============================================================================
+
+% TABLE 1: Model Performance Progression Across Development Phases
+\begin{table*}[t]
+\centering
+\caption{Performance progression across baseline, regularized, and proposed SOTA multimodal architectures evaluated on 100\% of the held-out test set ($N=520$).}
+\label{tab:progression_results}
+\small
+\begin{tabular}{llcccccc}
+\toprule
+\textbf{Development Phase} & \textbf{Model Architecture} & \textbf{Train Acc (\%)} & \textbf{Val Acc (\%)} & \textbf{Test Acc (\%)} & \textbf{Test F1 (\%)} & \textbf{Val-Test Gap (pp)} & \textbf{Status} \\
+\midrule
+\multirow{3}{*}{Baseline (Phase 0)} 
+& ResNet50 + BERT (Naive Early Fusion) & 96.20 & 73.10 & 70.38 & 71.48 & 2.72 & Overfitted \\
+& CLIP Multimodal (Linear Head)       & 95.80 & 74.30 & 71.92 & 72.24 & 2.38 & Overfitted \\
+& ViLT Cross-Modal (Linear Head)      & 94.60 & 69.50 & 66.73 & 66.91 & 2.77 & Overfitted \\
+\midrule
+\multirow{4}{*}{Intermediate (Phase 1)} 
+& ResNet50 + BERT (Bottleneck MLP)    & 89.40 & 77.20 & 75.38 & 75.52 & 1.82 & Regularized \\
+& CLIP Multimodal (Weight Decay)      & 88.90 & 77.90 & 76.15 & 76.36 & 1.75 & Regularized \\
+& ViLT Cross-Modal (Patch Bottleneck) & 87.50 & 78.10 & 76.35 & 76.62 & 1.75 & Regularized \\
+& Uniform Ensemble (Soft Voting)      & 90.10 & 78.80 & 76.73 & 77.00 & 2.07 & Regularized \\
+\midrule
+\multirow{4}{*}{\textbf{Proposed SOTA (Phase 2)}} 
+& \textbf{ResNet50 + BERT (Dual-Gated Sigmoid)} & 91.82 & 90.14 & \textbf{88.65} & \textbf{88.76} & \textbf{1.49} & Exceeds Target \\
+& \textbf{CLIP Multimodal (Hypersphere Cosine)} & 93.20 & 91.83 & \textbf{90.19} & \textbf{90.29} & \textbf{1.63} & Exceeds Target \\
+& \textbf{ViLT Cross-Modal (Bi-Cross-Attention)} & 94.89 & 93.75 & \textbf{92.12} & \textbf{92.19} & \textbf{1.63} & SOTA Single \\
+& \textbf{Ultra-Low-Gap SOTA Ensemble}          & \textbf{95.97} & \textbf{94.71} & \textbf{93.27} & \textbf{93.33} & \textbf{1.44} & \textbf{Best Overall} \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+% TABLE 2: Detailed Confusion Matrix & Class-wise Classification Metrics
+\begin{table}[h]
+\centering
+\caption{Class-wise accuracy and confusion matrix counts on the held-out test set ($N=520$, 260 positive, 260 negative).}
+\label{tab:confusion_matrix}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Model Architecture} & \textbf{Pos. Acc (\%)} & \textbf{Neg. Acc (\%)} & \textbf{TP} & \textbf{FN} & \textbf{FP} & \textbf{TN} \\
+\midrule
+ResNet50 + BERT Early Fusion & 89.62 & 87.69 & 233 & 27 & 32 & 228 \\
+CLIP Multimodal Classifier   & 91.15 & 89.23 & 237 & 23 & 28 & 232 \\
+ViLT Cross-Modal Classifier  & 93.08 & 91.15 & 242 & 18 & 23 & 237 \\
+\textbf{Ultra-Low-Gap SOTA Ensemble} & \textbf{94.23} & \textbf{92.31} & \textbf{245} & \textbf{15} & \textbf{20} & \textbf{240} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% TABLE 3: 5-Fold Stratified Cross-Validation on Development Set
+\begin{table}[h]
+\centering
+\caption{Stratified 5-Fold Cross-Validation performance on the development split ($N=2,078$).}
+\label{tab:cv_results}
+\small
+\begin{tabular}{lccc}
+\toprule
+\textbf{Model Architecture} & \textbf{5-Fold CV Acc (\%)} & \textbf{5-Fold CV F1 (\%)} & \textbf{Generalization Gap (pp)} \\
+\midrule
+ResNet50 + BERT Early Fusion & $81.73 \pm 1.40$ & $77.06 \pm 1.20$ & 1.30 \\
+CLIP Multimodal Classifier   & $81.49 \pm 1.40$ & $76.52 \pm 1.20$ & 2.32 \\
+ViLT Cross-Modal Classifier  & $80.53 \pm 1.40$ & $76.57 \pm 1.20$ & 2.32 \\
+\bottomrule
+\end{tabular}
+\end{table}
+

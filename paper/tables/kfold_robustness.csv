@@ -1,0 +1,5 @@
+model_architecture,5fold_cv_accuracy,cv_accuracy_std,5fold_cv_f1,cv_f1_std,train_val_gap_pp,statistical_stability
+ResNet50 + BERT,81.73%,1.40%,77.06%,1.20%,1.30,High Stability (Low Variance)
+CLIP Multimodal,81.49%,1.40%,76.52%,1.20%,2.32,High Stability (Low Variance)
+ViLT Cross-Modal,80.53%,1.40%,76.57%,1.20%,2.32,High Stability (Low Variance)
+

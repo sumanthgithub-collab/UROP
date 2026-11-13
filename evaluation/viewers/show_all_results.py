@@ -2,7 +2,8 @@ import json
 from pathlib import Path
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
+# Multimodal-Sentiment-Analysis project root
+ROOT = Path(__file__).resolve().parents[2]
 RESULTS = ROOT / "results"
 IMPROVED = RESULTS / "improved"
 

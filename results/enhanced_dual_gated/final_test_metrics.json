@@ -1,0 +1,23 @@
+{
+    "model": "ResNet50 + BERT Enhanced Dual-Gated Multimodal Fusion",
+    "innovations": [
+        "Independent Decoupled Dual Gating",
+        "Incongruity / Sarcasm Conflict Gate",
+        "L2 Unit Sphere Normalization & Cosine Similarity Alignment",
+        "High-Dropout Regularization with GELU & LayerNorm"
+    ],
+    "development_samples": 2078,
+    "final_test_samples": 520,
+    "best_epoch": 3,
+    "training_accuracy": 0.8916967509025271,
+    "validation_accuracy": 0.8125,
+    "test_accuracy": 0.7461538461538462,
+    "test_precision": 0.75,
+    "test_recall": 0.7384615384615385,
+    "test_f1": 0.7441860465116279,
+    "train_val_gap": 0.07919675090252709,
+    "train_test_gap": 0.14554290474868092,
+    "gain_over_baseline": 0.042353846153846186,
+    "gain_over_single_gate": -0.007646153846153858,
+    "gap_reduction_from_baseline": 0.13945709525131905
+}

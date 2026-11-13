@@ -10,7 +10,10 @@ if hasattr(sys.stdout, "reconfigure"):
 else:
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-BASE_DIR = Path(__file__).resolve().parent
+# Multimodal-Sentiment-Analysis project root
+BASE_DIR = Path(__file__).resolve().parents[2]
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
 RESULTS_DIR = BASE_DIR / "results"
 ANTI_OVR_DIR = RESULTS_DIR / "anti_overfitting"
 

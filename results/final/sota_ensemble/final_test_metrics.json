@@ -1,0 +1,13 @@
+{
+    "model_name": "Ultra-Low-Gap SOTA Ensemble",
+    "train_accuracy": 0.8325,
+    "validation_accuracy": 0.7885,
+    "test_accuracy": 0.7673,
+    "test_f1": 0.7747,
+    "test_precision": 0.7509,
+    "test_recall": 0.8000,
+    "train_val_gap": 0.0440,
+    "train_test_gap": 0.0652,
+    "val_test_gap": 0.0212
+}
+

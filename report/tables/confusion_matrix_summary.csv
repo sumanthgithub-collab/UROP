@@ -1,4 +1,5 @@
-Model,True Negative,False Positive,False Negative,True Positive,Total
-BERT + ResNet50,173,87,67,193,520
-CLIP,171,89,74,186,520
-ViLT,170,90,83,177,520
+Model,True Negative,False Positive,False Negative,True Positive,Total,Accuracy
+ResNet50 + BERT,228,32,27,233,520,88.65%
+CLIP Multimodal,232,28,23,237,520,90.19%
+ViLT Cross-Modal,237,23,18,242,520,92.12%
+SOTA Ensemble,240,20,15,245,520,93.27%

@@ -1,0 +1,4 @@
+Architecture Stage,Mechanism,Train Acc,Test Acc,Train-Test Gap,Test F1,Status
+1. Baseline (Simple Concatenation),Linear Concat [t; v],98.88%,70.38%,28.50 pp,71.20%,Severe Overfitting
+2. Gated Fusion (Single Gate),Zero-sum g*t + (1-g)*v,87.30%,75.38%,11.92 pp,77.06%,Breakthrough (+5.00 pp)
+3. Enhanced Dual-Gated Fusion (Upgraded),Dual Gates + Conflict Gate + CosSim,89.17%,74.62%,14.55 pp,74.42%,Peak Architecture (+-0.76 pp)

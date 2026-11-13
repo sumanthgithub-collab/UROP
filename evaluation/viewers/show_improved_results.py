@@ -18,8 +18,8 @@ else:
 sns.set_theme(style="whitegrid", palette="muted")
 plt.rcParams.update({"font.size": 11, "figure.autolayout": True})
 
-# Path configurations
-ROOT = Path(__file__).resolve().parent
+# Path configurations (Multimodal-Sentiment-Analysis project root)
+ROOT = Path(__file__).resolve().parents[2]
 RESULTS = ROOT / "results"
 IMPROVED = RESULTS / "improved"
 DATASET = ROOT / "dataset"

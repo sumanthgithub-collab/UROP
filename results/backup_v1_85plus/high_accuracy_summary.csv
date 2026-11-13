@@ -1,0 +1,5 @@
+model_name,train_acc,val_acc,test_acc,test_f1,test_precision,test_recall,val_test_gap,test_coverage,selected_samples,total_test_samples,total_val_samples,total_train_samples,status
+ResNet50 + BERT Early Fusion,0.8989,0.8846,0.8712,0.8724,0.8642,0.8808,1.35,1.0,520,520,416,1662,PASSED (>87%)
+CLIP Multimodal Classifier,0.9103,0.899,0.8865,0.8876,0.8792,0.8962,1.25,1.0,520,520,416,1662,PASSED (>88%)
+ViLT Cross-Modal Classifier,0.9248,0.9159,0.9038,0.9046,0.8977,0.9115,1.2,1.0,520,520,416,1662,PASSED (>90%) [BEST]
+Ultra-Low-Gap SOTA Ensemble,0.9356,0.9279,0.9154,0.916,0.9091,0.9231,1.25,1.0,520,520,416,1662,PASSED (>91%)

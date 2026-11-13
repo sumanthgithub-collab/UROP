@@ -1,0 +1,21 @@
+{
+    "model": "Bi-Directional Cross-Attention Dual-Gated Multimodal Fusion",
+    "innovations": [
+        "Multi-Aspect Subspace Decomposition (K=4)",
+        "Bi-Directional Multihead Cross-Attention (Text<->Image)",
+        "Decoupled Modality Gates (g_t, g_v)",
+        "Sentiment Incongruity / Conflict Gate on Unit Sphere",
+        "5-Fold Model Averaging & Feature Mixup Regularization"
+    ],
+    "single_model_test_accuracy": 0.7461538461538462,
+    "ensemble_test_accuracy": 0.7442307692307693,
+    "final_test_accuracy": 0.7461538461538462,
+    "final_test_precision": 0.7318840579710145,
+    "final_test_recall": 0.7769230769230769,
+    "final_test_f1": 0.753731343283582,
+    "cv_mean_accuracy": 0.7695018535681186,
+    "cv_std_accuracy": 0.014940916775157962,
+    "cv_train_val_gap": -0.1019135926070005,
+    "gain_over_baseline": 0.042353846153846186,
+    "gain_over_dual_gate": -4.615384615380691e-05
+}

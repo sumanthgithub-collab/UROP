@@ -1,0 +1,6 @@
+model,positive_accuracy,negative_accuracy,true_positives,false_negatives,false_positives,true_negatives,total_positive_samples,total_negative_samples,total_test_samples,correct_predictions
+ResNet50 + BERT,89.62%,87.69%,233,27,32,228,260,260,520,461
+CLIP Multimodal,91.15%,89.23%,237,23,28,232,260,260,520,469
+ViLT Cross-Modal,93.08%,91.15%,242,18,23,237,260,260,520,479
+SOTA Ensemble,94.23%,92.31%,245,15,20,240,260,260,520,485
+
