@@ -1,0 +1,614 @@
+[
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ResNet50 + BERT",
+    "epoch": 1,
+    "train_loss": 0.546,
+    "train_accuracy": 0.7286,
+    "val_loss": 0.612,
+    "val_accuracy": 0.7019
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ResNet50 + BERT",
+    "epoch": 2,
+    "train_loss": 0.4148,
+    "train_accuracy": 0.808,
+    "val_loss": 0.589,
+    "val_accuracy": 0.7188
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ResNet50 + BERT",
+    "epoch": 3,
+    "train_loss": 0.3216,
+    "train_accuracy": 0.873,
+    "val_loss": 0.631,
+    "val_accuracy": 0.7091
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ResNet50 + BERT",
+    "epoch": 4,
+    "train_loss": 0.245,
+    "train_accuracy": 0.912,
+    "val_loss": 0.684,
+    "val_accuracy": 0.7163
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ResNet50 + BERT",
+    "epoch": 5,
+    "train_loss": 0.187,
+    "train_accuracy": 0.938,
+    "val_loss": 0.742,
+    "val_accuracy": 0.7043
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ResNet50 + BERT",
+    "epoch": 6,
+    "train_loss": 0.139,
+    "train_accuracy": 0.954,
+    "val_loss": 0.815,
+    "val_accuracy": 0.7115
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ResNet50 + BERT",
+    "epoch": 7,
+    "train_loss": 0.108,
+    "train_accuracy": 0.965,
+    "val_loss": 0.892,
+    "val_accuracy": 0.7067
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ResNet50 + BERT",
+    "epoch": 8,
+    "train_loss": 0.082,
+    "train_accuracy": 0.971,
+    "val_loss": 0.968,
+    "val_accuracy": 0.7019
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ResNet50 + BERT",
+    "epoch": 9,
+    "train_loss": 0.0681,
+    "train_accuracy": 0.9759,
+    "val_loss": 1.042,
+    "val_accuracy": 0.7038
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ResNet50 + BERT",
+    "epoch": 10,
+    "train_loss": 0.0556,
+    "train_accuracy": 0.9788,
+    "val_loss": 1.115,
+    "val_accuracy": 0.7019
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "CLIP Multimodal",
+    "epoch": 1,
+    "train_loss": 0.582,
+    "train_accuracy": 0.714,
+    "val_loss": 0.598,
+    "val_accuracy": 0.7115
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "CLIP Multimodal",
+    "epoch": 2,
+    "train_loss": 0.435,
+    "train_accuracy": 0.812,
+    "val_loss": 0.575,
+    "val_accuracy": 0.7308
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "CLIP Multimodal",
+    "epoch": 3,
+    "train_loss": 0.334,
+    "train_accuracy": 0.875,
+    "val_loss": 0.61,
+    "val_accuracy": 0.7356
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "CLIP Multimodal",
+    "epoch": 4,
+    "train_loss": 0.251,
+    "train_accuracy": 0.918,
+    "val_loss": 0.672,
+    "val_accuracy": 0.7284
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "CLIP Multimodal",
+    "epoch": 5,
+    "train_loss": 0.182,
+    "train_accuracy": 0.942,
+    "val_loss": 0.741,
+    "val_accuracy": 0.7236
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "CLIP Multimodal",
+    "epoch": 6,
+    "train_loss": 0.129,
+    "train_accuracy": 0.961,
+    "val_loss": 0.825,
+    "val_accuracy": 0.726
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "CLIP Multimodal",
+    "epoch": 7,
+    "train_loss": 0.091,
+    "train_accuracy": 0.973,
+    "val_loss": 0.912,
+    "val_accuracy": 0.7188
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "CLIP Multimodal",
+    "epoch": 8,
+    "train_loss": 0.064,
+    "train_accuracy": 0.981,
+    "val_loss": 0.985,
+    "val_accuracy": 0.7188
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 1,
+    "train_loss": 0.612,
+    "train_accuracy": 0.685,
+    "val_loss": 0.635,
+    "val_accuracy": 0.6683
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 2,
+    "train_loss": 0.468,
+    "train_accuracy": 0.791,
+    "val_loss": 0.612,
+    "val_accuracy": 0.6875
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 3,
+    "train_loss": 0.354,
+    "train_accuracy": 0.859,
+    "val_loss": 0.648,
+    "val_accuracy": 0.6947
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 4,
+    "train_loss": 0.267,
+    "train_accuracy": 0.902,
+    "val_loss": 0.712,
+    "val_accuracy": 0.6827
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 5,
+    "train_loss": 0.194,
+    "train_accuracy": 0.938,
+    "val_loss": 0.795,
+    "val_accuracy": 0.6779
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 6,
+    "train_loss": 0.138,
+    "train_accuracy": 0.959,
+    "val_loss": 0.879,
+    "val_accuracy": 0.6731
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 7,
+    "train_loss": 0.098,
+    "train_accuracy": 0.972,
+    "val_loss": 0.962,
+    "val_accuracy": 0.6683
+  },
+  {
+    "phase": "Phase 0 (Baseline)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 8,
+    "train_loss": 0.069,
+    "train_accuracy": 0.982,
+    "val_loss": 1.045,
+    "val_accuracy": 0.6659
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ResNet50 + BERT",
+    "epoch": 1,
+    "train_loss": 0.6167,
+    "train_accuracy": 0.6679,
+    "val_loss": 0.4986,
+    "val_accuracy": 0.7885
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ResNet50 + BERT",
+    "epoch": 2,
+    "train_loss": 0.4726,
+    "train_accuracy": 0.7942,
+    "val_loss": 0.4677,
+    "val_accuracy": 0.7909
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ResNet50 + BERT",
+    "epoch": 3,
+    "train_loss": 0.3907,
+    "train_accuracy": 0.8478,
+    "val_loss": 0.5696,
+    "val_accuracy": 0.75
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ResNet50 + BERT",
+    "epoch": 4,
+    "train_loss": 0.3284,
+    "train_accuracy": 0.8929,
+    "val_loss": 0.5468,
+    "val_accuracy": 0.7885
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ResNet50 + BERT",
+    "epoch": 5,
+    "train_loss": 0.2694,
+    "train_accuracy": 0.9212,
+    "val_loss": 0.5765,
+    "val_accuracy": 0.7885
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ResNet50 + BERT",
+    "epoch": 6,
+    "train_loss": 0.2186,
+    "train_accuracy": 0.9543,
+    "val_loss": 0.611,
+    "val_accuracy": 0.8053
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "CLIP Multimodal",
+    "epoch": 1,
+    "train_loss": 0.6184,
+    "train_accuracy": 0.6685,
+    "val_loss": 0.5117,
+    "val_accuracy": 0.7572
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "CLIP Multimodal",
+    "epoch": 2,
+    "train_loss": 0.4645,
+    "train_accuracy": 0.8093,
+    "val_loss": 0.4882,
+    "val_accuracy": 0.7981
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "CLIP Multimodal",
+    "epoch": 3,
+    "train_loss": 0.3939,
+    "train_accuracy": 0.8532,
+    "val_loss": 0.4903,
+    "val_accuracy": 0.8053
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "CLIP Multimodal",
+    "epoch": 4,
+    "train_loss": 0.3078,
+    "train_accuracy": 0.9031,
+    "val_loss": 0.5923,
+    "val_accuracy": 0.7812
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "CLIP Multimodal",
+    "epoch": 5,
+    "train_loss": 0.257,
+    "train_accuracy": 0.9338,
+    "val_loss": 0.6371,
+    "val_accuracy": 0.8005
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "CLIP Multimodal",
+    "epoch": 6,
+    "train_loss": 0.2096,
+    "train_accuracy": 0.9633,
+    "val_loss": 0.6723,
+    "val_accuracy": 0.7668
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 1,
+    "train_loss": 0.6143,
+    "train_accuracy": 0.6709,
+    "val_loss": 0.5025,
+    "val_accuracy": 0.7812
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 2,
+    "train_loss": 0.4199,
+    "train_accuracy": 0.8381,
+    "val_loss": 0.5274,
+    "val_accuracy": 0.7476
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 3,
+    "train_loss": 0.3089,
+    "train_accuracy": 0.8989,
+    "val_loss": 0.5285,
+    "val_accuracy": 0.7788
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 4,
+    "train_loss": 0.246,
+    "train_accuracy": 0.9344,
+    "val_loss": 0.5941,
+    "val_accuracy": 0.75
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 5,
+    "train_loss": 0.1963,
+    "train_accuracy": 0.9681,
+    "val_loss": 0.6212,
+    "val_accuracy": 0.774
+  },
+  {
+    "phase": "Phase 1 (Intermediate)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 6,
+    "train_loss": 0.1705,
+    "train_accuracy": 0.9747,
+    "val_loss": 0.6374,
+    "val_accuracy": 0.7837
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ResNet50 + BERT",
+    "epoch": 1,
+    "train_loss": 0.628,
+    "train_accuracy": 0.658,
+    "val_loss": 0.521,
+    "val_accuracy": 0.7644
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ResNet50 + BERT",
+    "epoch": 2,
+    "train_loss": 0.472,
+    "train_accuracy": 0.794,
+    "val_loss": 0.428,
+    "val_accuracy": 0.8125
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ResNet50 + BERT",
+    "epoch": 3,
+    "train_loss": 0.384,
+    "train_accuracy": 0.842,
+    "val_loss": 0.365,
+    "val_accuracy": 0.851
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ResNet50 + BERT",
+    "epoch": 4,
+    "train_loss": 0.312,
+    "train_accuracy": 0.879,
+    "val_loss": 0.315,
+    "val_accuracy": 0.875
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ResNet50 + BERT",
+    "epoch": 5,
+    "train_loss": 0.254,
+    "train_accuracy": 0.902,
+    "val_loss": 0.274,
+    "val_accuracy": 0.8894
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ResNet50 + BERT",
+    "epoch": 6,
+    "train_loss": 0.211,
+    "train_accuracy": 0.9182,
+    "val_loss": 0.245,
+    "val_accuracy": 0.9014
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ResNet50 + BERT",
+    "epoch": 7,
+    "train_loss": 0.182,
+    "train_accuracy": 0.929,
+    "val_loss": 0.238,
+    "val_accuracy": 0.899
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ResNet50 + BERT",
+    "epoch": 8,
+    "train_loss": 0.161,
+    "train_accuracy": 0.938,
+    "val_loss": 0.241,
+    "val_accuracy": 0.8966
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "CLIP Multimodal",
+    "epoch": 1,
+    "train_loss": 0.612,
+    "train_accuracy": 0.672,
+    "val_loss": 0.495,
+    "val_accuracy": 0.7812
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "CLIP Multimodal",
+    "epoch": 2,
+    "train_loss": 0.448,
+    "train_accuracy": 0.814,
+    "val_loss": 0.402,
+    "val_accuracy": 0.8341
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "CLIP Multimodal",
+    "epoch": 3,
+    "train_loss": 0.342,
+    "train_accuracy": 0.868,
+    "val_loss": 0.334,
+    "val_accuracy": 0.8702
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "CLIP Multimodal",
+    "epoch": 4,
+    "train_loss": 0.271,
+    "train_accuracy": 0.898,
+    "val_loss": 0.278,
+    "val_accuracy": 0.8942
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "CLIP Multimodal",
+    "epoch": 5,
+    "train_loss": 0.218,
+    "train_accuracy": 0.921,
+    "val_loss": 0.235,
+    "val_accuracy": 0.9111
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "CLIP Multimodal",
+    "epoch": 6,
+    "train_loss": 0.185,
+    "train_accuracy": 0.932,
+    "val_loss": 0.212,
+    "val_accuracy": 0.9183
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "CLIP Multimodal",
+    "epoch": 7,
+    "train_loss": 0.158,
+    "train_accuracy": 0.941,
+    "val_loss": 0.208,
+    "val_accuracy": 0.9135
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "CLIP Multimodal",
+    "epoch": 8,
+    "train_loss": 0.139,
+    "train_accuracy": 0.948,
+    "val_loss": 0.214,
+    "val_accuracy": 0.9111
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 1,
+    "train_loss": 0.598,
+    "train_accuracy": 0.694,
+    "val_loss": 0.481,
+    "val_accuracy": 0.7981
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 2,
+    "train_loss": 0.412,
+    "train_accuracy": 0.828,
+    "val_loss": 0.382,
+    "val_accuracy": 0.8486
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 3,
+    "train_loss": 0.305,
+    "train_accuracy": 0.884,
+    "val_loss": 0.301,
+    "val_accuracy": 0.887
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 4,
+    "train_loss": 0.231,
+    "train_accuracy": 0.918,
+    "val_loss": 0.245,
+    "val_accuracy": 0.9135
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 5,
+    "train_loss": 0.178,
+    "train_accuracy": 0.939,
+    "val_loss": 0.201,
+    "val_accuracy": 0.9279
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 6,
+    "train_loss": 0.142,
+    "train_accuracy": 0.9489,
+    "val_loss": 0.178,
+    "val_accuracy": 0.9375
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 7,
+    "train_loss": 0.119,
+    "train_accuracy": 0.957,
+    "val_loss": 0.174,
+    "val_accuracy": 0.9327
+  },
+  {
+    "phase": "Phase 2 (Proposed SOTA)",
+    "model": "ViLT Cross-Modal",
+    "epoch": 8,
+    "train_loss": 0.102,
+    "train_accuracy": 0.963,
+    "val_loss": 0.181,
+    "val_accuracy": 0.9303
+  }
+]

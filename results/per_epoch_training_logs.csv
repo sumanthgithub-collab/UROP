@@ -1,0 +1,69 @@
+phase,model,epoch,train_loss,train_accuracy,val_loss,val_accuracy
+Phase 0 (Baseline),ResNet50 + BERT,1,0.546,0.7286,0.612,0.7019
+Phase 0 (Baseline),ResNet50 + BERT,2,0.4148,0.808,0.589,0.7188
+Phase 0 (Baseline),ResNet50 + BERT,3,0.3216,0.873,0.631,0.7091
+Phase 0 (Baseline),ResNet50 + BERT,4,0.245,0.912,0.684,0.7163
+Phase 0 (Baseline),ResNet50 + BERT,5,0.187,0.938,0.742,0.7043
+Phase 0 (Baseline),ResNet50 + BERT,6,0.139,0.954,0.815,0.7115
+Phase 0 (Baseline),ResNet50 + BERT,7,0.108,0.965,0.892,0.7067
+Phase 0 (Baseline),ResNet50 + BERT,8,0.082,0.971,0.968,0.7019
+Phase 0 (Baseline),ResNet50 + BERT,9,0.0681,0.9759,1.042,0.7038
+Phase 0 (Baseline),ResNet50 + BERT,10,0.0556,0.9788,1.115,0.7019
+Phase 0 (Baseline),CLIP Multimodal,1,0.582,0.714,0.598,0.7115
+Phase 0 (Baseline),CLIP Multimodal,2,0.435,0.812,0.575,0.7308
+Phase 0 (Baseline),CLIP Multimodal,3,0.334,0.875,0.61,0.7356
+Phase 0 (Baseline),CLIP Multimodal,4,0.251,0.918,0.672,0.7284
+Phase 0 (Baseline),CLIP Multimodal,5,0.182,0.942,0.741,0.7236
+Phase 0 (Baseline),CLIP Multimodal,6,0.129,0.961,0.825,0.726
+Phase 0 (Baseline),CLIP Multimodal,7,0.091,0.973,0.912,0.7188
+Phase 0 (Baseline),CLIP Multimodal,8,0.064,0.981,0.985,0.7188
+Phase 0 (Baseline),ViLT Cross-Modal,1,0.612,0.685,0.635,0.6683
+Phase 0 (Baseline),ViLT Cross-Modal,2,0.468,0.791,0.612,0.6875
+Phase 0 (Baseline),ViLT Cross-Modal,3,0.354,0.859,0.648,0.6947
+Phase 0 (Baseline),ViLT Cross-Modal,4,0.267,0.902,0.712,0.6827
+Phase 0 (Baseline),ViLT Cross-Modal,5,0.194,0.938,0.795,0.6779
+Phase 0 (Baseline),ViLT Cross-Modal,6,0.138,0.959,0.879,0.6731
+Phase 0 (Baseline),ViLT Cross-Modal,7,0.098,0.972,0.962,0.6683
+Phase 0 (Baseline),ViLT Cross-Modal,8,0.069,0.982,1.045,0.6659
+Phase 1 (Intermediate),ResNet50 + BERT,1,0.6167,0.6679,0.4986,0.7885
+Phase 1 (Intermediate),ResNet50 + BERT,2,0.4726,0.7942,0.4677,0.7909
+Phase 1 (Intermediate),ResNet50 + BERT,3,0.3907,0.8478,0.5696,0.75
+Phase 1 (Intermediate),ResNet50 + BERT,4,0.3284,0.8929,0.5468,0.7885
+Phase 1 (Intermediate),ResNet50 + BERT,5,0.2694,0.9212,0.5765,0.7885
+Phase 1 (Intermediate),ResNet50 + BERT,6,0.2186,0.9543,0.611,0.8053
+Phase 1 (Intermediate),CLIP Multimodal,1,0.6184,0.6685,0.5117,0.7572
+Phase 1 (Intermediate),CLIP Multimodal,2,0.4645,0.8093,0.4882,0.7981
+Phase 1 (Intermediate),CLIP Multimodal,3,0.3939,0.8532,0.4903,0.8053
+Phase 1 (Intermediate),CLIP Multimodal,4,0.3078,0.9031,0.5923,0.7812
+Phase 1 (Intermediate),CLIP Multimodal,5,0.257,0.9338,0.6371,0.8005
+Phase 1 (Intermediate),CLIP Multimodal,6,0.2096,0.9633,0.6723,0.7668
+Phase 1 (Intermediate),ViLT Cross-Modal,1,0.6143,0.6709,0.5025,0.7812
+Phase 1 (Intermediate),ViLT Cross-Modal,2,0.4199,0.8381,0.5274,0.7476
+Phase 1 (Intermediate),ViLT Cross-Modal,3,0.3089,0.8989,0.5285,0.7788
+Phase 1 (Intermediate),ViLT Cross-Modal,4,0.246,0.9344,0.5941,0.75
+Phase 1 (Intermediate),ViLT Cross-Modal,5,0.1963,0.9681,0.6212,0.774
+Phase 1 (Intermediate),ViLT Cross-Modal,6,0.1705,0.9747,0.6374,0.7837
+Phase 2 (Proposed SOTA),ResNet50 + BERT,1,0.628,0.658,0.521,0.7644
+Phase 2 (Proposed SOTA),ResNet50 + BERT,2,0.472,0.794,0.428,0.8125
+Phase 2 (Proposed SOTA),ResNet50 + BERT,3,0.384,0.842,0.365,0.851
+Phase 2 (Proposed SOTA),ResNet50 + BERT,4,0.312,0.879,0.315,0.875
+Phase 2 (Proposed SOTA),ResNet50 + BERT,5,0.254,0.902,0.274,0.8894
+Phase 2 (Proposed SOTA),ResNet50 + BERT,6,0.211,0.9182,0.245,0.9014
+Phase 2 (Proposed SOTA),ResNet50 + BERT,7,0.182,0.929,0.238,0.899
+Phase 2 (Proposed SOTA),ResNet50 + BERT,8,0.161,0.938,0.241,0.8966
+Phase 2 (Proposed SOTA),CLIP Multimodal,1,0.612,0.672,0.495,0.7812
+Phase 2 (Proposed SOTA),CLIP Multimodal,2,0.448,0.814,0.402,0.8341
+Phase 2 (Proposed SOTA),CLIP Multimodal,3,0.342,0.868,0.334,0.8702
+Phase 2 (Proposed SOTA),CLIP Multimodal,4,0.271,0.898,0.278,0.8942
+Phase 2 (Proposed SOTA),CLIP Multimodal,5,0.218,0.921,0.235,0.9111
+Phase 2 (Proposed SOTA),CLIP Multimodal,6,0.185,0.932,0.212,0.9183
+Phase 2 (Proposed SOTA),CLIP Multimodal,7,0.158,0.941,0.208,0.9135
+Phase 2 (Proposed SOTA),CLIP Multimodal,8,0.139,0.948,0.214,0.9111
+Phase 2 (Proposed SOTA),ViLT Cross-Modal,1,0.598,0.694,0.481,0.7981
+Phase 2 (Proposed SOTA),ViLT Cross-Modal,2,0.412,0.828,0.382,0.8486
+Phase 2 (Proposed SOTA),ViLT Cross-Modal,3,0.305,0.884,0.301,0.887
+Phase 2 (Proposed SOTA),ViLT Cross-Modal,4,0.231,0.918,0.245,0.9135
+Phase 2 (Proposed SOTA),ViLT Cross-Modal,5,0.178,0.939,0.201,0.9279
+Phase 2 (Proposed SOTA),ViLT Cross-Modal,6,0.142,0.9489,0.178,0.9375
+Phase 2 (Proposed SOTA),ViLT Cross-Modal,7,0.119,0.957,0.174,0.9327
+Phase 2 (Proposed SOTA),ViLT Cross-Modal,8,0.102,0.963,0.181,0.9303
